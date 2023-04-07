@@ -52,34 +52,43 @@
         width="2.1"
         height="3.45"
         depth="0.1"
-        position="0 0 0" 
-        rotation="0 45 0"               
-        src="8ball.jpg"
-        transparent="true"
-        alphaTest= "0.5"
-        env-map="#env"
-        metalness="1.0"
-        roughness="0.0"                  
-        animation="
-        property: rotation; 
-        from: 0 0 0; 
-        to: 0 360 0; 
-        easing: linear; 
-        dur: 10000; 
-        loop:true"               
-        >                 
-        </a-box>
-
-        <a-box 
-        width="2.1"
-        height="3.45"
-        depth="0.1"
-        position="2 0 -4" 
+        position="-5 0 5" 
         rotation="0 45 0"               
         src="fool.jpg"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
+        metalness="0.01"
+        roughness="1"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 7000; 
+        loop:true"
+        
+        animation__2="
+        property: position; 
+        from: -3 0.5 -3; 
+        to: 1 4 -5; 
+        dir: alternate;
+        easing: linear; 
+        dur: 5000; 
+        loop:true"
+        >                 
+        </a-box>
+
+        <a-box 
+        width="2"
+        height="2"
+        depth="0.2"
+        position="-0.5 0/5 -3" 
+        rotation="0 45 0"               
+        src="coin.jpg"
+        transparent="true"
+        alphaTest= "0.5"
+        env-map="#env"
         metalness="1.0"
         roughness="0.0"                  
         animation="
@@ -87,31 +96,24 @@
         from: 0 0 0; 
         to: 0 360 0; 
         easing: linear; 
+        dur: 500; 
+        loop:true"  
+        
+        animation__2="
+        property: position; 
+        from: 2 0.5 -3; 
+        to: -2 2 -3; 
+        dir: alternate;
+        easing: linear; 
         dur: 5000; 
-        loop:true"               
+        loop:true"
+         > 
         >                 
         </a-box>
 
         <a-sphere
-        radius="1.2"
-        position= "2 0 2"
-        src="8ball.jpg"
-        env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
-        animation="
-        property: rotation; 
-        from: -3 0 0; 
-        to: 0 360 0; 
-        easing: linear; 
-        dur: 10000; 
-        loop:true"
-        >                  
-        </a-sphere>  
-
-        <a-sphere
-        radius="1.2"
-        position= "2 0 2"
+        radius="1"
+        position= "0 0.5 5"
         src="8ball.jpg"
         env-map="#env"
         metalness="0.9"
@@ -123,8 +125,19 @@
         easing: linear; 
         dur: 10000; 
         loop:true"
+
+        animation__2="
+           property: position; 
+           from: -1 0.5 -3; 
+           to: 2 2 -3; 
+           dir: alternate;
+           easing: linear; 
+           dur: 5000; 
+           loop:true"
         >                  
-        </a-sphere>        
+        </a-sphere>  
+
+               
 
         <!-- !!! Do not remove Marker 1 !!! -->
       </a-marker>    
