@@ -49,12 +49,35 @@
           Edit size, position, texture and animation here -->
 
         <a-box 
-        width="2.1"
+        width="3.1"
         height="3.45"
         depth="0.2"
         position="2 0 -2" 
         rotation="0 45 0"               
         src="prayer.png"
+        transparent="true"
+        alphaTest= "0.5"
+        env-map="#env"
+        metalness="0.9"
+        roughness="0.1"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"               
+        >                 
+        </a-box>
+
+
+        <a-box 
+        width="2.1"
+        height="3.45"
+        depth="0.2"
+        position="2 0 -2" 
+        rotation="0 45 0"               
+        src="LISTENING.jpg"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
