@@ -43,44 +43,93 @@
 
      <!-- !!! Only 1 Marker but lots of assets inside it !!! -->
 
-      <a-marker type='pattern' url='patternya.patt' smooth="true">
+      <a-marker type='pattern' url='pattern-markercircle.patt' smooth="true">
 
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-       
-
-        <a-sphere
-        radius="2"
-        position="-1 0 1" 
-        rotation="0 270 0"               
-        src="fool.jpg"
+        <a-box 
+        width="2.1"
+        height="3.45"
+        depth="0.1"
+        position="0 0 0" 
+        rotation="0 45 0"               
+        src="fool.png"
         transparent="true"
-        alphaTest= "0.5"            
+        alphaTest= "0.5"
         env-map="#env"
         metalness="1.0"
-        roughness="0.0" 
-         animation__position="
-         property: position; 
-         from: -1 0 1; 
-         to:  -2 1; 3
-         dir: alternate;
-         easing: linear; 
-         dur: 5000; 
-         loop:true"
-         animation__rotate="
-         property: rotation; 
-         from: 0 0 0; 
-         to: 0 360 0; 
-         easing: linear; 
-         dur: 10000; 
-         loop:true"          
-         >                 
-        </a-sphere>
-  
-    
+        roughness="0.0"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"               
+        >                 
+        </a-box>
 
-          
+        <a-box 
+        width="2.1"
+        height="3.45"
+        depth="0.1"
+        position="2 0 -4" 
+        rotation="0 45 0"               
+        src="coin.png"
+        transparent="true"
+        alphaTest= "0.5"
+        env-map="#env"
+        metalness="1.0"
+        roughness="0.0"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 5000; 
+        loop:true"               
+        >                 
+        </a-box>
+
+        <a-box 
+        width="2.1"
+        height="3.45"
+        depth="0.1"
+        position="-2 0 2" 
+        rotation="0 45 0"               
+        src="sky.png"
+        transparent="true"
+        alphaTest= "0.5"
+        env-map="#env"
+        metalness="1.0"
+        roughness="0.0"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 5000; 
+        loop:true"               
+        >                 
+        </a-box>
+
+        <a-sphere
+        radius="1.2"
+        position= "2 0 2"
+        src="8ball.png"
+        env-map="#env"
+        metalness="0.9"
+        roughness="0.1"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"
+        >                  
+        </a-sphere>        
 
         <!-- !!! Do not remove Marker 1 !!! -->
       </a-marker>    
