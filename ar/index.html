@@ -147,7 +147,7 @@
         <a-sphere
         radius="1"
         position="2 0.7 0"              
-        src="globe.jpg"
+        src="heaven.jpg"
         transparent="true"
         env-map="#env"
         metalness="0.9"
@@ -158,7 +158,16 @@
         to: 0 360 0; 
         easing: linear; 
         dur: 10000; 
-        loop:true"               
+        loop:true" 
+        animation__2="
+        property: position; 
+        from: 2 0.7 0; 
+        to: 2 3 0; 
+        dir: alternate;
+        easing: linear; 
+        dur: 5000; 
+        loop:true"
+         >                           
         >                 
         </a-sphere>
 
