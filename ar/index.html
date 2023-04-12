@@ -48,19 +48,35 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-        
-
         <a-box 
         width="2.1"
         height="3.45"
-        depth="0.1"
+        depth="0.2"
         position="2 0 -2" 
-        rotation="0 45 =45"               
+        rotation="0 45 0"               
         src="fool.jpg"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
-        metalness="0.8"
+        metalness="0.9"
+        roughness="0.1"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 10000; 
+        loop:true"               
+        >                 
+        </a-box>
+
+        <a-sphere 
+        radius="1"
+        position="0 0 -4" 
+        rotation="0 0 0"               
+        src="8ball.png"
+        env-map="#env"
+        metalness="0.9"
         roughness="0.1"                  
         animation="
         property: rotation; 
@@ -72,20 +88,19 @@
         >                 
         </a-box>
 
-        
+  
 
         <a-sphere
-        radius="1"
-        position= "0 0 -4"
-        rotation="0 0 0"
-        src="8ball.jpg"
+        radius="1.2"
+        position= "2 0 2"
+        src="coin.png"
         env-map="#env"
         metalness="0.9"
         roughness="0.1"                  
         animation="
         property: rotation; 
         from: 0 0 0; 
-        to: 360 360 360; 
+        to: 0 360 0; 
         easing: linear; 
         dur: 10000; 
         loop:true"
