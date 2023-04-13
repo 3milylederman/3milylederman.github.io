@@ -74,6 +74,36 @@
 
         <!-- !!! END MARKER 1 !!! -->
       </a-marker>
+
+
+      <a-marker type='pattern' url='pattern-marker4562.patt' smooth="true">
+
+        <!-- This is the object <a-object> 
+          Edit size, position, texture and animation here -->
+
+       <a-box 
+         width="10"
+         height="6"
+         depth="0.1"
+         position="0 0 0" 
+         rotation="0 90 0"               
+         src="wish.jpg"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="0.3"
+         roughness="0.0"          
+         animation__position="
+         property: position; 
+         from: 0 0 0; 
+         to: 0 4 0; 
+         dir: alternate;
+         easing: linear; 
+         dur: 5000; 
+         loop:true"
+                   
+         >                          
+   </a-box>
       
       
 

@@ -1,34 +1,200 @@
-body{
-    background-color: red;
-    font-size: 50px;
-    font-family: serif;
-    letter-spacing: 3px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-style: medium;
+}
+
+.header {
+  background-color: #052fff;
+  height: 50px;
+  display: flex;
+  font-family: "Neue Haas Grotesk Display Pro",
+  font-weight: 300;
+  font-size: 45px;
+}
+
+.header-left {
+  flex: 1;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header-left h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.header-right {
+  flex: 1;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-right h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.title {
+  margin-top: 50px;
+  text-align: left;
+  color: #052fff;
+  
+}
+
+
+.title h2 {
+  font-size: 80px;
+  font-family:'magic' ;
+  font-weight: normal;
+  line-height: 80px;
+  margin-left: 10px;
+}
+
+.title h3 {
+  font-size: 80px;
+  font-family:'magic' ;
+  font-weight: normal;
+  line-height: 80px;
+  margin-left: 80px;
+}
+
+.title h4 {
+  font-size: 80px;
+  font-family:'magic' ;
+  font-weight: normal;
+  line-height: 80px;
+  margin-left: 40px;
+}
+
+.title h5 {
+  font-size: 80px;
+  font-family:'magic' ;
+  font-weight: normal;
+  line-height: 80px;
+}
+
+.line {
+  border-top: 1px solid black;
+  margin-top: 30px;
+}
+
+.author {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.content {
+  padding: 40px 20px;
+  font-family: "Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: right;
+  color: #000;
+  margin-left: 30px;
+}
+
+.content span {
+  display: block;
+  line-height: 1;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.content span.author {
+  font-family: "Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: right;
+  margin-left: 30px;
+}
+
+.content span.publication {
+  font-family: "Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: right;
+  margin-left: 30px;
+}
+
+
+.text {
+  font-family: 'Arno Pro Display';
+  font-size: 20pt;
+  line-height: 20pt;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+.space {
+  height: 20px;
+}
+
+.hello {
+  font-family: 'magic';
+  font-size: 72px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #052fff;
+}
+
+
+
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #052fff;
 
 }
+
+.column {
+  width: calc(50% - 20px);
+}
+
+.left-column {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.right-column {
+  margin-left: 20px;
+}
+
+.dark-blue {
+  color: #1a1a2e;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.line2 {
+  border: none;
+  border-top: 1px solid #000;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 
 @font-face {
-    font-family: "wreckage";
-    src: url("Wreckage-GrotesqueOne.woff");
-}
+  font-family:'magic';
+  src: url('custom-font/dematerialized.otf');
 
-h1{
-    font-family: "wreckage";
-}
-
-h2{
-    font-family: arial;
-}
-
-h3{
-    font-family: "wreckage";
-}
-
-div.text {
-    font-family: "wreckage";
-    margin-bottom: 100px;
-}
-
-div.footnote{
-    font-family: "wreckage";
-    color: blue;
 }
