@@ -49,63 +49,17 @@
           Edit size, position, texture and animation here -->
 
         <a-box 
-        width="7.1"
+        width="2.1"
         height="3.45"
-        depth="1.5"
-        position="4 0 -2" 
-        rotation="0 90 0"               
-        src="breathe.jpg"
-        transparent="true"
-        alphaTest= "0.5"
-        env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
-        animation="
-        property: rotation; 
-        from: 0 0 0; 
-        to: 0 360 0; 
-        easing: linear; 
-        dur: 10000; 
-        loop:true"               
-        >                 
-        </a-box>
-
-
-        <a-box 
-        width="4.1"
-        height="7.45"
-        depth="1.2"
-        position="2 0 2" 
-        rotation="0 0 0"               
-        src="LISTENING.jpg"
-        transparent="true"
-        alphaTest= "0.5"
-        env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
-        animation="
-        property: rotation; 
-        from: 0 0 0; 
-        to: 0 360 0; 
-        easing: linear; 
-        dur: 10000; 
-        loop:true"               
-        >                 
-        </a-box>
-
-
-        <a-box 
-        width="4.1"
-        height="7.45"
-        depth="3.2"
-        position="-2 0 -2" 
+        depth="0.1"
+        position="0 0 0" 
         rotation="0 45 0"               
-        src="shule.jpg"
+        src="sky.png"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
+        metalness="1.0"
+        roughness="0.0"                  
         animation="
         property: rotation; 
         from: 0 0 0; 
@@ -115,40 +69,55 @@
         loop:true"               
         >                 
         </a-box>
-  
 
-        <!-- !! END MARKER 1 !!! -->
-      </a-marker> 
-      
-      <a-marker type='pattern' url='pattern-marker7543.patt' smooth="true">
-
-        <!-- This is the object <a-object> 
-          Edit size, position, texture and animation here -->
-
-        <a-sphere
-        radius="1"
-        position="0 0.5 0"               
-        src="globe.jpg"
+        <a-box 
+        width="2.1"
+        height="3.45"
+        depth="0.1"
+        position="2 0 -4" 
+        rotation="0 45 0"               
+        src="sky.png"
         transparent="true"
+        alphaTest= "0.5"
         env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
+        metalness="1.0"
+        roughness="0.0"                  
         animation="
         property: rotation; 
         from: 0 0 0; 
         to: 0 360 0; 
         easing: linear; 
-        dur: 15000; 
+        dur: 5000; 
         loop:true"               
         >                 
-        </a-sphere>
+        </a-box>
 
+        <a-box 
+        width="2.1"
+        height="3.45"
+        depth="0.1"
+        position="-2 0 2" 
+        rotation="0 45 0"               
+        src="sky.png"
+        transparent="true"
+        alphaTest= "0.5"
+        env-map="#env"
+        metalness="1.0"
+        roughness="0.0"                  
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 5000; 
+        loop:true"               
+        >                 
+        </a-box>
 
         <a-sphere
-        radius="1"
-        position="2 2 5"              
-        src="worldhojpg.jpg"
-        transparent="true"
+        radius="1.2"
+        position= "2 0 2"
+        src="sky.png"
         env-map="#env"
         metalness="0.9"
         roughness="0.1"                  
@@ -158,20 +127,12 @@
         to: 0 360 0; 
         easing: linear; 
         dur: 10000; 
-        loop:true" 
-        animation__2="
-        property: position; 
-        from: 0.5 2 0; 
-        to: 3 -5 -5; 
-        dir: alternate;
-        easing: linear; 
-        dur: 15000; 
         loop:true"
-         >                                           
-        </a-sphere>
+        >                  
+        </a-sphere>        
 
-<!-- !! END MARKER 2 !!! -->
-</a-marker> 
+        <!-- !!! Do not remove Marker 1 !!! -->
+      </a-marker>    
 
      
 
