@@ -73,33 +73,19 @@
 
 
 
-.written p{
-  margin-left: 10 px;
-  font-size: 20px;
-  margin-left: 20px;
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
-  font-style: medium;
+.author {
+  margin-left: 10px;
+  margin-top: 40px;
+  font-family: 'arno';
+  text-align: left;
 }
-  
 
-.gunseli p{
-  margin-left: 10 px;
-  font-size: 20px;
-  margin-left: 20px;
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
-  font-style: medium;
+.author span {
+  display: block;
+  font-size: 18px;
+  line-height: 1;
 }
-  
 
-   
-.dazed p{
-  margin-left: 10 px;
-  font-size: 20px;
-  margin-left: 20px;
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
-  font-style: medium;
-}
-  
 
 
 
