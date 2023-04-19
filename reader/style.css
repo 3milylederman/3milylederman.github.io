@@ -1,3 +1,7 @@
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -118,7 +122,8 @@
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #052fff
+  background-color: black;
+  color: white;
 }
 
 
@@ -214,4 +219,5 @@
   font-family: 'arno';
   src: url('custom-font/ArnoPro-Italic.otf')
 }
+
 
