@@ -194,6 +194,14 @@
   font-size: 10px;
 }
 
+.footer p {
+  color: white;
+  font-family: 'arno';
+  font-size: 18px;
+  margin: 0;
+  padding: 0 15px;
+}
+
 
 
 
