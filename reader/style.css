@@ -178,28 +178,22 @@
     margin-right: 40px;
     margin-top: 40px;
     font-size: 20px;
-    line-height: 1;
+    line-height: 1.5;
   margin-bottom: 10px;
 }
 
-
-.bottom {
+.footer {
   background-color: #052fff;
+  color: white;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 0px;
+  padding: 15px;
+  font-family: 'curly', sans-serif;
+  font-size: 20px;
 }
 
-.bottom p {
-  font-family: 'curly';
-  font-size: 20px;
-  color: white;
-  padding: 10px 15px;
-  margin: 0;
-}
 
 
 
