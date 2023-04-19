@@ -169,6 +169,19 @@
 }
 
 
+
+.bottom-paragraph {
+  padding: 15px;
+  font-family: 'curly', sans-serif;
+}
+
+.bottom-paragraph p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+
+
 @font-face {
   font-family:'magic';
   src: url('custom-font/dematerialized.otf');
