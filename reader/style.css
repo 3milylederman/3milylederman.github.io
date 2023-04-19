@@ -76,9 +76,11 @@
 .author {
   margin-left: 10px;
   margin-top: 40px;
-  font-family: 'arno';
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifHelvetica, sans-serif;
   text-align: left;
-  font-style: normal;
+  font-style: medium ;
+
+
 }
 
 .author span {
