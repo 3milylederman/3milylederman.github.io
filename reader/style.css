@@ -12,8 +12,8 @@
   font-family: "Neue Haas Grotesk Display Pro",
   font-weight: 300;
   font-size: 45px;
-  justify-content: space-between; /* Add this line */
-  align-items: center; /* Add this line */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .header h1 {
