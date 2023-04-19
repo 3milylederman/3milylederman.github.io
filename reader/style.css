@@ -109,15 +109,16 @@
   margin-left: 30px;
 }
 
-.text {
+.text p {
   font-size: 20pt;
   line-height: 20pt;
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 40px;
-  font-family: 'curly'
-  }
+    font-family: Arial, sans-serif;
+ }
+  
   
 
 
