@@ -116,7 +116,7 @@
   font-family: 'magic';
   font-size: 72px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 40px;
   color: #052fff;
 }
@@ -139,6 +139,7 @@
     margin-right: 10px;
     margin-top: 40px;
     font-size: 20px;
+    margin-bottom: 40px
   }
 
 
