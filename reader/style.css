@@ -24,6 +24,7 @@
 .header-left h1 {
   font-size: 20px;
   color: white;
+  display: inline-block; 
 }
 
 .header-right {
@@ -37,6 +38,7 @@
 .header-right h1 {
   font-size: 20px;
   color: white;
+  display: inline-block;
 }
 
 .title {
