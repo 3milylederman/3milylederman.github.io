@@ -1,61 +1,162 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>Reader</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="style.css" rel="stylesheet">
-   </head>
-   <body>
-      <div class="header">
-         <div class="header-left">
-            <h1>AUGMENTED LIVING</h1>
-         </div>
-         <div class="header-right">
-            <h1>READER</h1>
-         </div>
-      </div>
-      <div class="title">
-         <h2>god</h2</h2>
-         <h3>in<h3</h3>
-         <h4>the<h4</h4>
-         <h5>machine<h5</h5>
-      </div>
-      <div class="line"></div>
-      <div style="height: 10px;"></div>
-
-	<div class="author">
-		<span>Written by</span><br>
-		<span>Günseli Yalcinkaya</span><br>
-		<span>Dazed Digital</span>
-	</div>
-
-   <div class="text">
-      <p>From IRL fashion shows and club nights to social media and Reddit threads, people are tuning in and dropping out as people turn to the mystical to make sense of the chaotic world around them. While some turn to ancient religions – gnostic symbols, cabbalistic charts and pagan iconography – many online posters are embracing ‘trad-cath’ aesthetics, while others are choosing to see God in the computer. Sometimes it’s a mix. Either way, it’s becoming increasingly apparent that there’s an esoteric spiritualism in the air.</p>
-    </div>
-
-<div class="space"></div>
-  <div class="hello">o</div>
-
-  <div class="two-columns">
-   <div class="column">
-     <p>There are all these ways [in which] the concrete sense of being somewhere has evaporated, and in these gaps run all these idealisms, mysticisms, rumours of God,” says Erik Davis, the author of Techgnosis and High Weirdness. “Because human worldbuilding is hackable, you can throw more weird possibilities, constructs, propositions, systems, conspiracies, and it will actually start producing the sense of another world. ”</p>
-   </div>
-   <div class="column">
-     <p>When paired with the overarching feeling that we can no longer condense the complexities of our feelings into scientific frameworks (for example, the death of therapy-speak) and the poor living conditions of late capitalism, this hyper-networking results in a vibrant experimentalism, where identities are performed and mythologised.</p>
-   </div>
- </div>
-
- <div class="line2"
-   style="height: 10px;" ></div>
-
-
-
-
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+   font-style: medium;
+ }
  
-    
+ .header {
+   background-color: #052fff;
+   height: 50px;
+   display: flex;
+   font-family: "Neue Haas Grotesk Display Pro",
+   font-weight: 300;
+   font-size: 45px;
+ }
  
+ .header-left {
+   flex: 1;
+   margin-left: 10px;
+   display: flex;
+   align-items: center;
+ }
  
-
-  
-   </body>
-</html>
+ .header-left h1 {
+   font-size: 20px;
+   color: white;
+ }
+ 
+ .header-right {
+   flex: 1;
+   margin-right: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+ }
+ 
+ .header-right h1 {
+   font-size: 20px;
+   color: white;
+ }
+ 
+ .title {
+   margin-top: 50px;
+   text-align: left;
+   color: #052fff;
+ }
+ 
+ .title h2,
+ .title h3,
+ .title h4,
+ .title h5 {
+   font-size: 80px;
+   font-family:'magic' ;
+   font-weight: normal;
+   line-height: 80px;
+   display: inline-block;
+ }
+ 
+ .title h3 {
+   margin-left: 80px;
+ }
+ 
+ .title h4 {
+   margin-left: 40px;
+ }
+ 
+ .line {
+   border-top: 1px solid black;
+   margin-top: 30px;
+ }
+ 
+ .author {
+   margin-left: 10px;
+   margin-top: 40px;
+ }
+ 
+ .content {
+   padding: 40px 20px;
+   font-family: "Grotesk", sans-serif;
+   font-weight: 400;
+   font-size: 36px;
+   text-align: right;
+   color: #000;
+   margin-left: 30px;
+ }
+ 
+ .content span {
+   display: block;
+   line-height: 1;
+   margin-bottom: 10px;
+   margin-left: 30px;
+ }
+ 
+ .content span.author {
+   font-family: "Grotesk", sans-serif;
+   font-weight: 500;
+   font-size: 36px;
+   text-align: right;
+   margin-left: 30px;
+ }
+ 
+ .content span.publication {
+   font-family: "Grotesk", sans-serif;
+   font-weight: 400;
+   font-size: 36px;
+   text-align: right;
+   margin-left: 30px;
+ }
+ 
+ .text {
+   font-family: 'Arno Pro Display';
+   font-size: 20pt;
+   line-height: 20pt;
+   text-align: left;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 40px;
+ }
+ 
+ .space {
+   height: 20px;
+ }
+ 
+ .hello {
+   font-family: 'magic';
+   font-size: 72px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   color: #052fff;
+ }
+ 
+ .two-columns {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: #052fff;
+ }
+ 
+ .column {
+   width: calc(50% - 20px);
+ }
+ 
+ .left-column {
+   margin-right: 20px;
+   margin-left: 10px;
+ }
+ 
+ .right-column {
+   margin-left: 20px;
+ }
+ 
+ .dark-blue {
+   color: #1a1a2e;
+ }
+ 
+ .text {
+   font-size: 16px;
+}
+ 
