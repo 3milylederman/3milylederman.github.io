@@ -102,15 +102,6 @@
 }
 
 
-.paraspot p {
-  font-family: 'curly','Times New Roman', Times, serif;
-  font-weight: 500;
-  text-align: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 40px;
-  font-size: 20px;
-}
 
   
   
@@ -139,6 +130,19 @@
 }
 
 
+  .paraspot p {
+    font-family: 'curly'
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+
+
+}
 .column {
   width: calc(50% - 20px);
 }
