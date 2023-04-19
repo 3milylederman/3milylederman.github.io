@@ -182,16 +182,23 @@
   margin-bottom: 10px;
 }
 
-.footer {
+
+.bottom {
   background-color: #052fff;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
-  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.bottom p {
+  font-family: 'curly';
+  font-size: 20px;
   color: white;
-  padding: 0 15px;
+  padding: 10px 15px;
+  margin: 0;
 }
 
 
