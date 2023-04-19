@@ -76,17 +76,29 @@
 .written {
   margin-left: 10 px;
   font-family: 'arno';
-  font-size: 20px
+  font-size: 20px;
+  margin-left: 20px;
+  font-style:bold
 }
   
 
 .gunseli{
   margin-left: 10 px;
   font-family: 'arno';
-  font-size: 20px
+  font-size: 20px;
+  margin-left: 20px;
+  font-style:bold
+}
+  
+.dazed{
+  margin-left: 10 px;
+  font-family: 'arno';
+  font-size: 20px;
+  margin-left: 20px;
+  font-style:bold
 }
    
-}
+
 
 
 .space {
