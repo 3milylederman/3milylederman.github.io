@@ -12,46 +12,32 @@
   font-family: "Neue Haas Grotesk Display Pro",
   font-weight: 300;
   font-size: 45px;
+  justify-content: space-between; /* Add this line */
+  align-items: center; /* Add this line */
 }
 
-.header-left {
-  flex: 1;
+.header h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.header h1:first-child {
   margin-left: 10px;
-  display: flex;
-  align-items: center;
 }
 
-.header-left h1 {
-  font-size: 20px;
-  color: white;
-  display: inline-block; 
-}
-
-.header-right {
-  flex: 1;
+.header h1:last-child {
   margin-right: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.header-right h1 {
-  font-size: 20px;
-  color: white;
-  display: inline-block;
 }
 
 .title {
   margin-top: 50px;
   text-align: left;
   color: #052fff;
-  
 }
-
 
 .title h2 {
   font-size: 80px;
-  font-family:'magic' ;
+  font-family: 'magic';
   font-weight: normal;
   line-height: 80px;
   margin-left: 10px;
@@ -59,7 +45,7 @@
 
 .title h3 {
   font-size: 80px;
-  font-family:'magic' ;
+  font-family: 'magic';
   font-weight: normal;
   line-height: 80px;
   margin-left: 80px;
@@ -67,7 +53,7 @@
 
 .title h4 {
   font-size: 80px;
-  font-family:'magic' ;
+  font-family: 'magic';
   font-weight: normal;
   line-height: 80px;
   margin-left: 40px;
@@ -75,7 +61,7 @@
 
 .title h5 {
   font-size: 80px;
-  font-family:'magic' ;
+  font-family: 'magic';
   font-weight: normal;
   line-height: 80px;
 }
@@ -123,7 +109,6 @@
   margin-left: 30px;
 }
 
-
 .text {
   font-family: 'Arno Pro Display';
   font-size: 20pt;
@@ -133,11 +118,6 @@
   margin-right: 10px;
   margin-top: 40px;
 }
-
-
-
-
-
 
 .space {
   height: 20px;
@@ -152,18 +132,15 @@
   color: #052fff;
 }
 
-
-
-
 .two-columns {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #052fff;
-
+  color: #052fff
 }
+
 
 .column {
   width: calc(50% - 20px);
