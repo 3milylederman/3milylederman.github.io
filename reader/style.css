@@ -110,14 +110,16 @@
 }
 
 .text {
-  font-family: 'Times New Roman', Times, serif;
   font-size: 20pt;
   line-height: 20pt;
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 40px;
-}
+  font-family: 'curly'
+  }
+  
+
 
 .space {
   height: 20px;
