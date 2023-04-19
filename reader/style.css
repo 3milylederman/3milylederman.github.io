@@ -104,7 +104,8 @@
 
 .paraspot p {
   font-family: 'curly','Times New Roman', Times, serif;
-  font-size: 12px;
+  font-size: 60px;
+  font-weight: 500;
   line-height: 20pt;
   text-align: left;
   margin-left: 10px;
