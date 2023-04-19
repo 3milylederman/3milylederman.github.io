@@ -110,7 +110,7 @@
 }
 
 .text {
-  font-family: 'Arno Pro Display';
+  font-family: 'curly';
   font-size: 20pt;
   line-height: 20pt;
   text-align: left;
@@ -176,4 +176,9 @@
   font-family:'magic';
   src: url('custom-font/dematerialized.otf');
 
+}
+
+@font-face {
+  font-family: 'curly';
+  src: url('custom-font/NimbusRomNo9L-Reg.otf');
 }
