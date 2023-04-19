@@ -79,10 +79,15 @@
   font-family:" Neue Haas Grotesk Display Pro", sans-serif;
   font-style: medium;
   text-align: left;
-  font-weight: 300;
+  font-weight: 500;
 
 
 
+}
+
+
+.author span:last-child {
+  font-style: italic;
 }
 
 .author span {
