@@ -76,9 +76,9 @@
 .author {
   margin-left: 10px;
   margin-top: 40px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifHelvetica, sans-serif;
+  font-family:" Neue Haas Grotesk Display Pro", sans-serif;
   text-align: left;
-  font-style: medium ;
+
 
 
 }
@@ -86,7 +86,7 @@
 .author span {
   display: block;
   font-size: 18px;
-  line-height: 1;
+  line-height: 0.5;
 }
 
 
