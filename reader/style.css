@@ -180,3 +180,14 @@
   src: url('custom-font/NimbusRomNo9L-Reg.otf')
 }
 
+.finaltext p {
+  font-family: 'curly';
+  font-weight: 500;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  font-size: 10px;
+  letter-spacing: -10px;
+  line-height: 1.2;
+}
