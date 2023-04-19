@@ -94,9 +94,9 @@
 }
 
 .content span.author {
-  font-family: "Grotesk", sans-serif;
+  font-family: 'arno';
   font-weight: 500;
-  font-size: 50px;
+  font-size: 60px;
   text-align: right;
   margin-left: 30px;
 }
