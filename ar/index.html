@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-  <script src="aframe-ar.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="aframe-ar.js"></script>
+</head>
+
   <body>
     <a-scene embedded arjs environment="#env" vr-mode-ui="enabled: false">
       <a-assets>
@@ -102,8 +109,11 @@
          dur: 5000; 
          loop:true"
                    
-         >                               
-   </a-box>
+         >    
+
+      </a-box>   
+
+      </a-marker>
    
    <a-marker type='pattern' url='pattern-WORLDPATTERN.patt' smooth="true">
 
@@ -128,6 +138,8 @@
                    
          >                               
    </a-sphere>
+
+  </a-marker>
       
    <a-marker type='pattern' url='pattern-questiony.patt' smooth="true">
 
@@ -152,6 +164,8 @@
                     
           >                               
     </a-sphere>
+
+  </a-marker>
 
      
 
