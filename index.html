@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="aframe-ar.js"></script>
+  <body>
+    <a-scene embedded arjs environment="#env" vr-mode-ui="enabled: false">
+      <a-assets>
+        <a-cubemap id="env">
+          <img src="Daylight-Box_Right.jpg">
+          <img src="Daylight-Box_Left.jpg">
+          <img src="Daylight-Box_Top.jpg">
+          <img src="Daylight-Box_Bottom.jpg">
+          <img src="Daylight-Box_Front.jpg">
+          <img src="Daylight-Box_Back.jpg">
+        </a-cubemap>
+      </a-assets>
+
+      <a-light type="ambient" color="#888"></a-light>
+      <a-light type="point" intensity="0.3" position="2 4 4"></a-light>
+
+      <!-- DONT EDIT ABOVE
+                o   o
+                 )-(
+                (O O)
+                 \=/
+                .-"-.
+               //\ /\\
+             _// / \ \\_
+            =./ {,-.} \.=
+                || ||
+                || ||    
+              __|| ||__  
+             `---" "---'   
+           EDIT FROM HERE ON          
+      -->
+
+      <!-- This is the marker, inside the <marker> 
+           the objects that will appear at that position -->
+
+      <!-- You can create your own markers here. ONLY USE JPEGS not PNG!
+      https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+     -->
+
+     <!-- !!! MARKER 1 !!! -->
+
+      <a-marker type='pattern' url='pattern-marker7543.patt' smooth="true">
+
+        <!-- This is the object <a-object> 
+          Edit size, position, texture and animation here -->
+
+       <a-box 
+         width="1.5"
+         height="0.75"
+         depth="0.1"
+         position="0 0.5 0" 
+         rotation="-90 0 0"               
+         src="praying1.jpg"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="0.3"
+         roughness="0.0"          
+         animation__rotation="
+         property: rotation; 
+         from:-90 0 0; 
+         to: -90 360 0; 
+         dir: alternate;
+         easing: linear; 
+         dur: 5000; 
+         loop:true"
+                   
+         >                          
+   </a-box>
+
+        <!-- !!! END MARKER 1 !!! -->
+      </a-marker>
+
+
+      <a-marker type='pattern' url='pattern-wisH1.patt' smooth="true">
+
+        <!-- This is the object <a-object> 
+          Edit size, position, texture and animation here -->
+
+       <a-box 
+         width="3"
+         height="1.5"
+         depth="1"
+         position="0 0.5 0" 
+         rotation="-90 0 0"               
+         src="wish.jpg"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="0.3"
+         roughness="0.0"          
+         animation__rotation="
+         property: rotation; 
+         from:-90 0 0; 
+         to:-90 360 0; 
+         dir: alternate;
+         easing: linear; 
+         dur: 5000; 
+         loop:true"
+                   
+         >                               
+   </a-box>
+
+  </a-marker>
+   
+   <a-marker type='pattern' url='pattern-WORLDPATTERN.patt' smooth="true">
+
+   <a-sphere 
+         radius="1"
+         position="0 0.5 0" 
+         rotation="0 90 0"               
+         src="world.jpg"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="0.3"
+         roughness="0.0"          
+         animation__rotation="
+         property: rotation; 
+         from: 0 0 0; 
+         to:-90 360 0; 
+         dir: alternate;
+         easing: linear; 
+         dur: 5000; 
+         loop:true"
+                   
+         >                               
+   </a-sphere>
+
+  </a-marker>
+      
+   <a-marker type='pattern' url='pattern-questiony.patt' smooth="true">
+
+      <a-sphere 
+            radius="1"
+            position="0 0.5 0" 
+            rotation="0 90 0"               
+            src="question.jpg"
+            transparent="true"
+            alphaTest= "0.5"
+            env-map="#env"
+            metalness="0.3"
+            roughness="0.0"          
+            animation__rotation="
+            property: rotation; 
+            from: 0 0 0; 
+            to:-90 360 0; 
+            dir: alternate;
+            easing: linear; 
+            dur: 5000; 
+            loop:true"
+                      
+            >                               
+      </a-sphere>
+
+    </a-marker>   
+     
+
+
+      <a-entity camera></a-entity>
+    </a-scene>
+
+  </body>
+</html>
