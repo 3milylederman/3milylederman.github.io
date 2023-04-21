@@ -61,7 +61,7 @@
          depth="0.1"
          position="0 0.5 0" 
          rotation="-90 0 0"               
-         src="praying1.jpg"
+         src="praying.jpg"
          transparent="true"
          alphaTest= "0.5"
          env-map="#env"
@@ -117,54 +117,28 @@
    
    <a-marker type='pattern' url='pattern-7543.patt' smooth="true">
 
-         <a-sphere 
-         radius="1"
-         position="0 0.5 0" 
-         rotation="0 90 0"               
-         src="world.jpg"
-         transparent="true"
-         alphaTest= "0.5"
-         env-map="#env"
-         metalness="0.3"
-         roughness="0.0"          
-         animation__rotation="
-         property: rotation; 
-         from: 0 0 0; 
-         to:-90 360 0; 
-         dir: alternate;
-         easing: linear; 
-         dur: 5000; 
-         loop:true"
-                   
-         >                               
-         </a-sphere>
 
-  </a-marker>
-      
-   <a-marker type='pattern' url='pattern-questiony.patt' smooth="true">
-
-     <a-sphere 
-          radius="1"
-          position="0 0.5 0" 
-          rotation="0 90 0"               
-          src="question.jpg"
-          transparent="true"
-          alphaTest= "0.5"
-          env-map="#env"
-          metalness="0.3"
-          roughness="0.0"          
-          animation__rotation="
-          property: rotation; 
-          from: 0 0 0; 
-          to:-90 360 0; 
-          dir: alternate;
-          easing: linear; 
-          dur: 5000; 
-          loop:true"       
-          >                               
+    <a-sphere
+    radius="1"
+    position= "0 0.5 0"
+    src="world.jpg"
+    env-map="#env"
+    metalness="0.3"
+    roughness="0.1"                  
+    animation="
+     property: rotation; 
+     from: 0 0 0; 
+     to: -90 360 0; 
+     easing: linear; 
+     dur: 5000; 
+     loop:true"
+      >                  
     </a-sphere>
 
   </a-marker>
+      
+
+
 
      
 
