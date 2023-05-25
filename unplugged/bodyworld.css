@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .gif-container {
+    background-color: white;
+    padding: 20px;
+  }
+  
+
+  div.row {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    align-items: flex-start;
+  }
+  
+  div.col {
+    flex: 0 0 20%;
+    width: 10%;
+  }
+  
+  div.col1 {
+    flex: 0 0 12%;
+    width: 15%;
+  }
+  
+  div.col2 {
+    flex: 0 0 15%;
+    width: 15%;
+  }
+  
+  
+  div.col3 {
+    flex: 0 0 15%;
+    width: 15%;
+  }
+  
+  .image-container {
+    position: relative;
+    cursor: move;
+    user-select: none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }

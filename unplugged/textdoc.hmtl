@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unplugged</title>
+  <link rel="stylesheet" href="body222.css">
+</head>
+
+<body>
+  <div class="content">
+    <h1>Congratulations, you've done it.</h1>
+    <p>You deleted your account and have now embarked on a new journey.</p>
+    <h2>Welcome to Unplugged</h2>
+    <p>A digital shrine to honor and celebrate your courageous step into the uncharted territory of life beyond social media.</p>
+    <p>As you explore this space, remember the connections, memories, and experiences that once graced your virtual world, and embrace the endless possibilities that await you in the offline realm.</p>
+    <p>Dive in, and let the adventure begin.</p>
+  </div>
+</body>
+
+</html>
