@@ -179,7 +179,7 @@ body {
   }
 
   div.topmargins {
-    margin-top: 200px;
+    margin-top: 230px;
     
   }
 
@@ -191,6 +191,16 @@ body {
   div.bottommargintb {
     margin-top: 420px;
   }
+
+
+  div.bmrclock {
+    margin-top: 400px;
+    scale: 0.8;
+  }
+  
+
+
+
   
   div.bottommargin1 {
     margin-top: 450px;
@@ -216,6 +226,14 @@ body {
   scale: 0.8;
  }
 
+ div.bmclock {
+  scale: 0.9;
+ }
+
+ div.topmargins {
+  scale: 0.8;
+  
+}
  div.snake {
   scale: 0.9;
  }
@@ -314,7 +332,7 @@ body {
 }
 
 .confirm-box {
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 20px;
   margin-top: 18% ;
   margin-right: 10%;
@@ -469,4 +487,9 @@ a:hover {
 
 .image-container:hover img {
   filter: grayscale(0%);
-  transform: scale(0.8); }
+  transform: scale(1.8); }
+
+
+  div.bonesscale {
+    scale: 0.7;
+  }
