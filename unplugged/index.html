@@ -13,7 +13,7 @@
 
 
 
-<body>
+<body class="bg0">
   
   <div class="header">
     <a href="EARTHPAGE.html">404</a>
@@ -49,7 +49,7 @@
           </div>
         </div>
       </div>
-    <div class="message">Domain</div>
+    <div class="message"></div>
   </div>
 
   <div class="introtext show">
@@ -118,9 +118,9 @@
 
   </div>
 
-  <div id="button1" class="circle"></div>
-  <div id="button2" class="circle"></div>
-  <div id="button3" class="circle"></div>
+  <div class="circle btn1"></div>
+  <div class="circle btn2"></div>
+  <div class="circle btn3"></div>
 
 
   <audio class="music" controls>
@@ -140,6 +140,21 @@
     $("div.introtext").removeClass("show");
     $("div.blurry-background").removeClass("show");
   });
+  $("div.btn1").click(function () {
+    $("body").addClass("bg1");
+    $("body").removeClass("bg2 bg3");
+    console.log("btn1 testing");
+  });
+  $("div.btn2").click(function () {
+    $("body").addClass("bg2");
+    $("body").removeClass("bg1 bg3");
+    console.log("btn2 testing");
+  });
+  $("div.btn3").click(function () {
+    $("body").addClass("bg3");
+    $("body").removeClass("bg1 bg2");
+    console.log("btn3 testing");
+  });    
 });
 
 $(document).ready(function () {

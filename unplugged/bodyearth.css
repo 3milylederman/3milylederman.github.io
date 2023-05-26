@@ -80,7 +80,7 @@ body {
   div.row {
     display: flex;
     height: 100vh;
-    width: 80%;
+    width: 100%;
     overflow: auto;
     align-items: flex-start;
   }
@@ -406,5 +406,10 @@ a:hover {
 
   .mainimages {
     margin-top: 87px;
+  }
+  
+
+  body {
+    cursor: url(circlewhite.png), auto;
   }
   
