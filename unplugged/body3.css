@@ -1,0 +1,33 @@
+body {
+    margin: 1px;
+    font-size: 36px;
+    background-color: black;
+
+}
+
+  
+.onlinetext {
+
+    position: fixed;
+    top: 400px ;
+    left: 650px ;
+    font-size: 20px;
+    color: white ;
+  }
+
+  .offlinetext {
+
+    position: fixed;
+    top: 400px ;
+    right: 670px ;
+    font-size: 20px;
+    color: white ;
+  }
+
+  .offlinetext:hover {
+    text-decoration: underline;
+  }
+
+  .onlinetext:hover {
+    text-decoration: underline;
+  }
