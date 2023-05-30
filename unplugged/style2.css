@@ -11,21 +11,21 @@ background-color: black;
 
 
 body.bg1 {
-  background-image: url("forest.gif");
+  background-image: url("forre");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 
 body.bg2 {
-  background-image: url("sunfield.jpeg");
+  background-image: url("windows_xp_bliss-wide.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 
 body.bg3 {
-  background-image: url("sand.jpeg");
+  background-image: url("10-6-6k.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -40,7 +40,7 @@ body {
   
   img {
     width: 100%;
-    transition: transform 0.3s ease, filter 0.5s ease;
+    transition: transform 0.9s ease, filter 0.5s ease;
     filter: grayscale(100%);
   }
   
@@ -226,6 +226,19 @@ body {
     scale: 0.8;
   }
   
+/* Add the following styles */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: ;
+}
+ 
+.asterisk {
+  font-size: 70px;
+  
+}
+
 
 
 
@@ -399,7 +412,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     position: fixed;
-    top: 195px;
+    top: 205px;
     left: 0;
     color: rgb(255, 255, 255);
     z-index: 2;
@@ -516,9 +529,24 @@ a:hover {
 
 .image-container:hover {
   filter: grayscale(0%);
-  transform: scale(1.8); }
+  transform: scale(1.8), transform 0.9s ease }
 
 
   div.bonesscale {
     scale: 0.7;
   }
+
+
+  .number {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+
+  .row.mainimages {
+    margin-top: 45px; /* Adjust the value as needed */
+  }
+  

@@ -1,0 +1,87 @@
+body {
+    overflow-x: scroll; /* Enable horizontal scroll for the entire page */
+    background-color: #000000;
+  }
+  
+  .header {
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    color: white;
+    font-size: 154px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    z-index: 0; /* Add a higher z-index value */
+
+  }
+
+
+
+ 
+  
+  .header:hover {
+    color: red;
+  }
+  
+  .header-link {
+    text-decoration: none;
+  }
+  
+  
+  
+  .container {
+    display: flex;
+    width: 140%;
+    overflow-x: auto; /* Enable horizontal scroll for the container */
+    margin-bottom: 20px;
+    z-index: 10 ;
+    margin-top: -30; /* Remove negative margin */
+    padding-top: 0px; /* Increase the top padding to move the columns further down */
+    z-index: 999; /* Add a higher z-index value */
+  }
+  
+  
+  
+  .left-column,
+  .right-column {
+    flex: 1;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 15px ;
+    color: white;
+    font-size: 25px; /* Adjust the font size as needed */
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .left-column {
+    background-color: #000000;
+  }
+  
+  .right-column {
+    background-color: #000000;
+  }
+  
+  .text-container {
+    width: 130%;
+    overflow-x: scroll;
+    margin-top: -20px; /* Adjust the negative margin as needed */
+  }
+  
+ 
+  
+  .text p {
+    margin: 0;
+  }
+  
+  .text {
+    font-size: 70px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-style: italic;
+  
+    padding-top: 15px;
+  }
+  
+
+  
