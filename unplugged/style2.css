@@ -254,7 +254,7 @@ body {
 
  div.bmclock {
   margin-top: 450px;
-  scale: 0.6;
+  scale: 0.7;
   
  }
   
@@ -561,4 +561,21 @@ a:hover {
   
   
   
+  .number-link {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px; /* Adjust the height as needed */
+  }
+  
+  
+  .number-link:hover {
+    color: red;
+  }
   
