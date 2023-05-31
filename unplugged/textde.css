@@ -31,7 +31,7 @@ body {
   
   .container {
     display: flex;
-    width: 140%;
+    width: 100%;
     overflow-x: auto; /* Enable horizontal scroll for the container */
     margin-bottom: 20px;
     z-index: 10 ;
@@ -49,7 +49,7 @@ body {
     padding-bottom: 10px;
     padding-left: 15px ;
     color: white;
-    font-size: 25px; /* Adjust the font size as needed */
+    font-size: 30px; /* Adjust the font size as needed */
     font-family: Helvetica, sans-serif;
   }
   

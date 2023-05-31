@@ -11,7 +11,7 @@ background-color: black;
 
 
 body.bg1 {
-  background-image: url("forre");
+  background-image: url("forest.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -549,4 +549,21 @@ a:hover {
   .row.mainimages {
     margin-top: 45px; /* Adjust the value as needed */
   }
+  
+ 
+  
+  
+  .container {
+    display: flex;
+    width: 140%;
+    overflow-x: auto; /* Enable horizontal scroll for the container */
+    margin-bottom: 20px;
+    z-index: 10 ;
+    margin-top: -30; /* Remove negative margin */
+    padding-top: 0px; /* Increase the top padding to move the columns further down */
+    z-index: 999; /* Add a higher z-index value */
+  }
+  
+  
+  
   
