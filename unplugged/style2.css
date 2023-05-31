@@ -432,9 +432,7 @@ replace images,
 then target the img and translate it X and Y 
 */
 
-.moveleft img {
-  transform: translate(-10px, 20px);
-}
+
 
 
 .container {
