@@ -221,10 +221,7 @@ body {
   }
 
 
-  div.bmrclock {
-    margin-top: 400px;
-    scale: 0.8;
-  }
+ 
   
 /* Add the following styles */
 .overlay-text {
@@ -256,7 +253,9 @@ body {
   }
 
  div.bmclock {
-  margin-top: 410px
+  margin-top: 450px;
+  scale: 0.6;
+  
  }
   
  div.apple {
@@ -267,9 +266,7 @@ body {
   scale: 0.8;
  }
 
- div.bmclock {
-  scale: 0.9;
- }
+ 
 
  div.topmargins {
   scale: 0.8;

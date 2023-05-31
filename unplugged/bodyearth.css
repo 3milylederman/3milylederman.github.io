@@ -372,24 +372,23 @@ then target the img and translate it X and Y
 }
 
 .landscapeimages {
-    background-image: url("earthspin2.gif");
-    background-repeat: no-repeat;
-    background-position: center;
+  position: relative;
+  background-image: url("earthspin2.gif");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
-  
-  
 
 a {
-  color:rgb(255, 255, 255);
+  color: #fff;
   text-decoration: none;
-  
 }
 
 a:hover {
-  color: red;
+  color: red ; /* Replace #f00 with the desired shade of red */
 }
+
 
 
 .header {
