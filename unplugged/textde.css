@@ -9,7 +9,7 @@ body {
     padding-left: 10px;
     color: white;
     font-size: 154px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     text-decoration: none;
     z-index: 0; /* Add a higher z-index value */
 
@@ -50,7 +50,8 @@ body {
     padding-left: 15px ;
     color: white;
     font-size: 20px; /* Adjust the font size as needed */
-    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    font-family: ;
     
   }
   
@@ -83,6 +84,4 @@ body {
   
     padding-top: 15px;
   }
-  
-
   
