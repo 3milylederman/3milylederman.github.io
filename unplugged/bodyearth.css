@@ -434,6 +434,7 @@ then target the img and translate it X and Y
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 999;
     
   }
   
@@ -445,7 +446,8 @@ then target the img and translate it X and Y
     position: fixed;
     right:0;
     top:0;
-    ransition: color 0.9s ease;
+    transition: color 0.9s ease;
+    z-index: 100;
   }
   
   

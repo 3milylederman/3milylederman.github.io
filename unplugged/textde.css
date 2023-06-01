@@ -112,32 +112,6 @@ body {
     height: 100%;
   }
   
-  .short-text,
-  .long-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    transition: transform 0.3s;
-  }
-  
-  .short-text {
-    transform: translateY(0);
-  }
-  
-  .long-text {
-    transform: translateY(100%);
-  }
-  
-  .column:hover .short-text {
-    transform: translateY(-100%);
-  }
-  
-  .column:hover .long-text {
-    transform: translateY(0);
-  }
+ 
   
   
