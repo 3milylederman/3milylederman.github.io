@@ -33,7 +33,7 @@ body {
     display: flex;
     width: 100%;
     overflow-x: auto; /* Enable horizontal scroll for the container */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     z-index: 10 ;
     margin-top: -30; /* Remove negative margin */
     padding-top: 0px; /* Increase the top padding to move the columns further down */
@@ -49,9 +49,9 @@ body {
     padding-bottom: 10px;
     padding-left: 15px ;
     color: white;
-    font-size: 30px; /* Adjust the font size as needed */
+    font-size: 25px; /* Adjust the font size as needed */
     letter-spacing: 0.5px;
-    font-family: "law" ;
+    font-family: "new" ;
     
   }
   
@@ -76,9 +76,9 @@ body {
   }
   
   .text {
-    font-size: 70px;
+    font-size: 60px;
     color: white;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 15px;
     font-style: italic;
   
@@ -86,8 +86,8 @@ body {
   }
   
   @font-face {
-    font-family: 'law';
-    src: url('Lausanne-Regular.otf') format('truetype');
+    font-family: 'new';
+    src: url('NHaasGroteskTXPro-55Rg.ttf') ;
     /* Add more src lines for different font formats (e.g., woff, woff2) if available */
   }
   

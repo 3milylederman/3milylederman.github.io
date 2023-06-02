@@ -168,22 +168,32 @@
     $("div.welcome").removeClass("show");
     $("div.introtext").removeClass("show");
     $("div.blurry-background").removeClass("show");
+    $("div.btn1, div.btn2, div.btn3").addClass("show");
   });
   $("div.btn1").click(function () {
     $("body").addClass("bg1");
     $("body").removeClass("bg2 bg3");
     console.log("btn1 testing");
+    $(this).addClass('active');
   });
   $("div.btn2").click(function () {
     $("body").addClass("bg2");
     $("body").removeClass("bg1 bg3");
     console.log("btn2 testing");
+    $(this).addClass('active');
   });
+
   $("div.btn3").click(function () {
     $("body").addClass("bg3");
     $("body").removeClass("bg1 bg2");
     console.log("btn3 testing");
-  });    
+  });   
+
+
+
+
+
+
 });
 
 $(document).ready(function () {

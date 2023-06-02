@@ -6,31 +6,32 @@ body {
 }
 
   
-.onlinetext {
 
-    position: fixed;
-    top: 400px ;
-    left: 650px ;
-    font-size: 20px;
-    color: white ;
+  .centretext {
+    font-size:24px;
+    color:white;
+    width:200px;
+    text-align: center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-100px;
+    z-index: 999;
   }
+  
+  
+  
 
-  .offlinetext {
-
-    position: fixed;
-    top: 400px ;
-    right: 670px ;
-    font-size: 20px;
-    color: white ;
-  }
-
-  .offlinetext:hover {
+  .onlinebutton:hover {
     text-decoration: underline;
   }
 
-  .onlinetext:hover {
+  .offlinebutton:hover {
     text-decoration: underline;
   }
+
+
+  
 
   body {
     margin:0;
@@ -40,6 +41,14 @@ body {
     background-color: rgb(0, 0, 0);
     height:100vh;
     width:100vw;
+    position: fixed;
+    top:0;
+    left:0;
+    opacity: 0;
+  }
+
+  div.backgroundvideo1.active {
+    opacity: 1;
   }
   
   /*   background-size:contain; */
@@ -52,9 +61,38 @@ body {
     width:100%;
   }
   
-  div.backgroundvideo1 video {
+  div.backgroundvideo2 video {
     width:100%;
     height:100%;
     object-fit:cover;
   }
   
+  div.backgroundvideo2 {
+    background-color: rgb(0, 0, 0);
+    height:100vh;
+    width:100vw;
+    position: fixed;
+    top:0;
+    left:0;   
+    opacity: 0; 
+  }
+
+  div.backgroundvideo2.active {
+    opacity: 1;
+  }
+  
+  /*   background-size:contain; */
+  
+  img {
+    width:100%;
+  }
+  
+  video {
+    width:100%;
+  }
+  
+  div.backgroundvideo2 video {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }

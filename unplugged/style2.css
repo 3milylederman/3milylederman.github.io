@@ -370,7 +370,7 @@ body {
 }
 
 .confirm-box {
-  border: 2px solid white;
+  border: 4px solid white;
   padding: 20px;
   margin-top: 18% ;
   margin-right: 10%;
@@ -394,12 +394,11 @@ body {
 .maintext {
   position: fixed;
   top: 140px;
-  left: 0;,
+  left: 0;
   color: 0;
   z-index: 2;
   color: white;
   font-size: 55px; 
-  padding-bottom: 200px ;
   font-family: helvetica ;
 }
 
@@ -414,7 +413,6 @@ body {
     color: rgb(255, 255, 255);
     z-index: 2;
     font-size: 55px;
-    padding-bottom: 200px;
 }
 
 audio.music {
@@ -496,6 +494,11 @@ a:hover {
   border-radius: 50%;
   cursor: pointer;
   z-index: 100;
+  visibility: hidden;
+}
+
+.circle.show {
+  visibility: visible;
 }
 
 .btn1 {

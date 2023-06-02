@@ -9,6 +9,25 @@
   <link rel="stylesheet" href="body3.css">
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
+  <script>
+    $(document).ready(function(){
+  $("span.onlinebutton").mouseover(function(){
+    $("div.backgroundvideo1").addClass('active');
+  });
+  $("span.onlinebutton").mouseout(function(){
+    $("div.backgroundvideo1").removeClass('active');
+  });
+  
+    $("span.offlinebutton").mouseover(function(){
+    $("div.backgroundvideo2").addClass('active');
+  });
+  $("span.offlinebutton").mouseout(function(){
+    $("div.backgroundvideo2").removeClass('active');
+  });
+  
+});
+  </script>
+
 </head>
 
 
@@ -18,16 +37,27 @@
      
   
 
-  <div class="onlinetext">online ,</div>
-  <div class="offlinetext">offline</div>
+  <div class="centretext">
+    <span class= "onlinebutton">online</span>,
+  <span class="offlinebutton">offline</span>
+  </div>
 
   <div class="backgroundvideo1">
   
-    <video autoplay muted>
+    <video autoplay muted loop>
       <source src="OFFLINE VIDEO.mp4">
     </video>
       
     </div>
+
+
+    <div class="backgroundvideo2">
+  
+      <video autoplay muted loop>
+        <source src="OFFLINEVIDEO2.mp4">
+      </video>
+        
+      </div>
 
 </body>
 
