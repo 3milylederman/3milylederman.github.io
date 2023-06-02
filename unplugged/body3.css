@@ -31,3 +31,30 @@ body {
   .onlinetext:hover {
     text-decoration: underline;
   }
+
+  body {
+    margin:0;
+  }
+  
+  div.backgroundvideo1 {
+    background-color: rgb(0, 0, 0);
+    height:100vh;
+    width:100vw;
+  }
+  
+  /*   background-size:contain; */
+  
+  img {
+    width:100%;
+  }
+  
+  video {
+    width:100%;
+  }
+  
+  div.backgroundvideo1 video {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+  
