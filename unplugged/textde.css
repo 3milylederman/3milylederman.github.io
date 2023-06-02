@@ -31,13 +31,14 @@ body {
   
   .container {
     display: flex;
-    width: 100%;
+    width: 70%;
     overflow-x: auto; /* Enable horizontal scroll for the container */
     margin-bottom: 10px;
     z-index: 10 ;
-    margin-top: -50; /* Remove negative margin */
+    margin-top: 0; /* Remove negative margin */
     padding-top: 0px; /* Increase the top padding to move the columns further down */
     z-index: 999; /* Add a higher z-index value */
+    
   }
   
   
@@ -49,9 +50,10 @@ body {
     padding-bottom: 10px;
     padding-left: 15px ;
     color: white;
-    font-size: 50px; /* Adjust the font size as needed */
+    font-size: 60px; /* Adjust the font size as needed */
     letter-spacing: 0.5px;
-    font-family: "new" ;
+    font-family: "times" ;
+    font-style: italic;
     
   }
   
@@ -69,14 +71,32 @@ body {
     margin-top: 70px; /* Adjust the negative margin as needed */
   }
   
- 
+  .text-container {
+    display: inline-block;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: 0 20px;
+    font-family: 'Times New Roman', Times, serif;
+    animation: marquee 25s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-70%);
+    }
+  }
+  
   
   .text p {
     margin: 0;
   }
   
   .text {
-    font-size: 60px;
+    font-size: 170px;
     color: white;
     margin-top: 0px;
     margin-left: 15px;
