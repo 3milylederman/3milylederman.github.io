@@ -138,17 +138,7 @@ body {
     animation-fill-mode: forwards;
   }
   
-  .image-container.topmargin {
-    animation-name: slide-in-top;
-  }
-  
-  .image-container.bottommargin {
-    animation-name: slide-in-bottom;
-  }
-  
-  .image-container.bottommargin1 {
-    animation-name: slide-in-bottom;
-  }
+ 
   
   
   @keyframes slide-in-top {
@@ -198,8 +188,16 @@ body {
   
   div.topmargin {
     margin-top: 190px;
-    border-color: azure;
+
   }
+
+
+  div.topmarginfish {
+    margin-top: 270px;
+    scale: 0.9;
+   
+  }
+
 
   div.topmargin1 {
     margin-top: 240px;
@@ -231,10 +229,7 @@ body {
   color: ;
 }
  
-.asterisk {
-  font-size: 70px;
-  
-}
+
 
 
 
@@ -421,6 +416,7 @@ audio.music {
 
 
 
+
 /* duplicate the index2, 
 replace images, 
 ]add a unquie class name to the col, 
@@ -582,3 +578,4 @@ a:hover {
     color: red;
   }
   
+

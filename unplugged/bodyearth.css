@@ -113,11 +113,11 @@ body {
     animation-fill-mode: forwards;
   }
   
-  .image-container.topmargin {
+  .image-container.topmarginslide {
     animation-name: slide-in-top;
   }
   
-  .image-container.bottommargin {
+  .image-container.bottommarginslide {
     animation-name: slide-in-bottom;
   }
   
