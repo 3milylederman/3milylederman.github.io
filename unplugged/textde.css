@@ -1,17 +1,21 @@
 body {
     overflow-x: scroll; /* Enable horizontal scroll for the entire page */
     background-color: #000000;
-  }
+      cursor: url(circlewhite.png), auto;
+    }
+    
+    
+  
   
   .header {
     top: 0;
     left: 0;
-    padding-left: 10px;
     color: white;
     font-size: 154px;
     font-family: Helvetica, sans-serif;
     text-decoration: none;
     z-index: 0; /* Add a higher z-index value */
+    padding-left: 30px;
 
   }
 
@@ -28,110 +32,93 @@ body {
   }
   
   
-  
-  .container {
-    display: flex;
-    width: 70%;
-    overflow-x: auto; /* Enable horizontal scroll for the container */
-    margin-bottom: 10px;
-    z-index: 10 ;
-    margin-top: 0; /* Remove negative margin */
-    padding-top: 0px; /* Increase the top padding to move the columns further down */
-    z-index: 999; /* Add a higher z-index value */
-    
-  }
-  
-  
-  
-  .left-column,
-  .right-column {
-    flex: 1;
-    padding-top: 0px;
-    padding-bottom: 10px;
-    padding-left: 15px ;
-    color: white;
+   .congratulations {
     font-size: 60px; /* Adjust the font size as needed */
     letter-spacing: 0.5px;
     font-family: "times" ;
-    font-style: italic;
-    
-  }
-  
-  .left-column {
-    background-color: #000000;
-  }
-  
-  .right-column {
-    background-color: #000000;
-  }
-  
-  .text-container {
-    width: 120%;
-    overflow-x: scroll;
-    margin-top: 70px; /* Adjust the negative margin as needed */
-  }
-  
-  .text-container {
-    display: inline-block;
-    font-size: 60px;
+    font-style: italic; 
     color: white;
-    text-align: center;
-    margin: 0 20px;
-    font-family: 'Times New Roman', Times, serif;
-    animation: marquee 25s linear infinite;
-  }
+    padding-left: 30px;
+    padding-right: 30px;
 
-  @keyframes marquee {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-70%);
-    }
-  }
+   }
   
-  
-  .text p {
-    margin: 0;
-  }
-  
-  .text {
-    font-size: 170px;
+
+   .welcome-text {
+    font-size: 40px; /* Adjust the font size as needed */
+    letter-spacing: 0.5px;
+    font-family: "neue-haas-grotesk-display" ;
     color: white;
-    margin-top: 0px;
-    margin-left: 15px;
-    font-style: italic;
-  
-    padding-top: 15px;
-  }
-  
-  @font-face {
-    font-family: 'new';
-    src: url('NHaasGroteskTXPro-55Rg.ttf') ;
-    /* Add more src lines for different font formats (e.g., woff, woff2) if available */
-  }
-  
-  .column {
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    overflow: hidden;
-    position: relative;
-    transition: width 0.3s;
-  }
-  
-  .column:hover {
-    width: 300px;
-  }
-  
-  .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+   }
   
  
+   .text-container {
+    display: flex;
+    justify-content: left; /* Center the text horizontally */
+    overflow: hidden;
+  }
+  
+  .text-content {
+    width: 100%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
   
   
+  
+  .text-link {
+    text-decoration: none;
+    color: white; /* Set the link color to white */
+    padding-left: 30px;
+    font-size: 20.5px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    transition: color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  .text-link:hover {
+    color: red; /* Change the link color to red on hover */
+  }
+  
+  
+
+  
+  
+  .text:hover {
+    color: red;
+  }
+  
+
+
+
+
+
+
+
+  @font-face {
+    font-family: "neue-haas-grotesk-display" ;
+  }
+  
+
+  @font-face {
+    font-family:"neue-haas-grotesk-text";
+    src:url("https://use.typekit.net/af/68a7c6/00000000000000007735bb3d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/68a7c6/00000000000000007735bb3d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/68a7c6/00000000000000007735bb3d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+    font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+    }
+    
+  
+  @import url("https://use.typekit.net/nam7gja.css");
+
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 500;
+font-style: normal;
+
