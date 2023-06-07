@@ -35,7 +35,9 @@ body {
 }
 
 
-  
+#myimage {
+  transform: scaleX(-1);
+}
   
   
   img {
@@ -192,6 +194,11 @@ body {
   }
 
 
+  div.topmarginss {
+    margin-top: 200px;
+  }
+
+
   div.topmarginfish {
     margin-top: 270px;
     scale: 0.9;
@@ -206,6 +213,13 @@ body {
 
   div.topmargins {
     margin-top: 230px;
+    
+  }
+
+
+  div.topmargins1 {
+    margin-top: 230px;
+    scale: 0.8;
     
   }
 
@@ -252,6 +266,13 @@ body {
   scale: 0.7;
   
  }
+
+
+ div.bmclock1 {
+  margin-top: 420px;
+  scale: 0.6;
+  
+ }
   
  div.apple {
   scale: 0.8;
@@ -261,9 +282,11 @@ body {
   scale: 0.8;
  }
 
- 
+ div.sscale {
+  scale: 0.8;
+ }
 
- div.topmargins {
+ div.topmarginss {
   scale: 0.8;
   
 }
