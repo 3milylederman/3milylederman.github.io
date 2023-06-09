@@ -2,6 +2,7 @@ body {
     overflow-x: scroll; /* Enable horizontal scroll for the entire page */
     background-color: #000000;
       cursor: url(circlewhite.png), auto;
+      height: auto; /* Set the height to auto */
     }
     
     
@@ -20,7 +21,9 @@ body {
   }
 
 
-
+.text-container {
+  padding-top: 200px;
+}
  
   
   .header:hover {
@@ -56,16 +59,6 @@ body {
    }
   
  
-   .text-container {
-    display: flex;
-    justify-content: left; /* Center the text horizontally */
-    overflow: hidden;
-  }
-  
-  .text-content {
-    width: 100%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center the container horizontally */
-  }
   
   
   
@@ -90,7 +83,9 @@ body {
   }
   
   
-
+  .text-container {
+    margin-top: -150px;
+  }
   
   
   .text:hover {
@@ -122,3 +117,74 @@ body {
 font-weight: 500;
 font-style: normal;
 
+.imageearth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.imageearth img {
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 40%;
+  scale: 0.4 ;
+  margin-bottom: -50px;
+}
+
+.image2 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100vh; /* Adjust the height as needed */
+  padding-top: 30px; 
+}
+
+.image2 img {
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 70%;
+  scale: 0.2 ;
+  margin-top: -250px;
+}
+
+
+
+.image3 img {
+ 
+  scale: 0.2 ;
+  margin-left: -300px ;
+  margin-top: -1650px;
+  margin-bottom: 0; /* Remove or adjust the bottom margin */
+}
+
+
+.image4 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.image4 img {
+  padding-left: 60%;
+  scale: 0.2 ;
+  margin-top: -660px;
+  margin-bottom: 0;
+}
+
+
+.imageearth img,
+.image2 img,
+.image3 img,
+.image4 img {
+  opacity: 0; /* Set the initial opacity to 0 */
+  transition: opacity 2s; /* Add a transition effect for smooth visibility */
+}
+
+.imageearth:hover img,
+.image2:hover img,
+.image3:hover img,
+.image4:hover img {
+  opacity: 1; /* Set the opacity to 1 on hover */
+}
