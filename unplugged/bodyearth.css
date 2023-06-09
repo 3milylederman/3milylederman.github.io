@@ -198,6 +198,7 @@ div.grasscaley {
 div.oceans {
   scale: 0.8;
   margin-top: 290px ;
+  z-index: 2000;
 } 
 
   div.image2 {
