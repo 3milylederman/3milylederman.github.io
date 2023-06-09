@@ -465,3 +465,10 @@ a:hover {
 }
 
 
+div.oceans {
+  z-index: 1;
+}
+div.oceans:hover img {
+  filter: grayscale(100%);
+}
+
