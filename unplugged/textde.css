@@ -188,3 +188,14 @@ font-style: normal;
 .image4:hover img {
   opacity: 1; /* Set the opacity to 1 on hover */
 }
+
+.footer-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-text {
+  font-size: 24px;
+  color: white;
+  font-style: italic;
+}
