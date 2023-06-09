@@ -40,7 +40,7 @@
 
   </div>
 
-
+  
   
   
   
@@ -48,7 +48,7 @@
   <div class="col3 width20 topmargin1 apple image-container">
     <div class="hoverable-image image-container">
       <img src="output-onlinegiftools.gif" alt="Apple">
-      <a href="textpage.html" class="number-link">1.</a>
+  
       <div class="popup-image image-container">
         <img src="logoapple.jpeg" alt="Popup Image">
       </div>
@@ -56,59 +56,59 @@
   </div>
   <div class="col width20 bmclock image-container moveleft">
     <img src="clock1.png" alt="Clock"> 
-    <a href="textpage.html" class="number-link">2.</a>
+
   </div>
   <div class="col width20 topmarginfish image-container">
     <img src="fish.png" alt="Fish">
-    <a href="textpage.html" class="number-link">3.</a>
+
   </div>
     <div class="col1 width21 bottommargin1 image-container">
       <img src="shine-on-i-miss-you.gif" >
-      <a href="textpage.html" class="number-link">4.</a>
+    
     </div>
     <div class="col width20 topmargin rock image-container">
       <img src="rock.png" alt="Moon">
-      <a href="textpage.html" class="number-link">5.</a>
+   
     </div>
     <div class="col width20 bottommargins snake image-container">
       <img src="flowergreen.png" alt="Likes">
-      <a href="textpage.html" class="number-link">6.</a>
+    
     </div>
     <div class="col width20 topmargins1 image-container">
       <img src="death2.png" alt="Snake and Apple">
-      <a href="textpage.html" class="number-link">7.</a>
+    
     </div>
     <div class="col2 width20 bottommarginf image-container">
       <img src="flowery.png" alt="Orange Flower">
-      <a href="textpage.html" class="number-link">8.</a>
+
     </div>
     <div class="col width20 topmarginf rock image-container">
       <img src="rose.png" alt="Urn">
-      <a href="textpage.html" class="number-link">9.</a>
+ 
     </div>
     <div class="col width20 bottommargintb image-container">
       <img src="rip.png" alt="Tombstone">
-      <a href="textpage.html" class="number-link">10.</a>
+     
     </div>
     <div class="col width20 topmarginss image-container">
       <img src="snakeapple.png" alt="Bones">
-      <a href="textpage.html" class="number-link">11.</a>
+     
     </div>
     <div class="col width20 bottommargintb image-container">
       <img src="marble_1.gif" alt="Flower">
-      <a href="textpage.html" class="number-link">12.</a>
+      <a href="textpage.html" class="number-link">
     </div>
     <div class="col width20 topmargin bonesscale image-container">
       <img src="bones.png" alt="Bones">
-      <a href="textpage.html" class="number-link">13.</a>
+    
     </div>
     <div class="col width20 bottommargin bmclock1 image-container moveleft">
       <img src="death3.png" >
-      <a href="textpage.html" class="number-link">14.</a>
+
     </div>
     <div class="col width20 topmargin image-container">
       <img src="Atmo_4.gif" alt="Fish">
-      <a href="textpage.html" class="number-link">15.</a>
+
     </div>
    
     
@@ -143,7 +143,46 @@
   </div>
   
 
-  
+  <script>
+    $(document).ready(function () {
+  $("div.welcome").click(function () {
+    $("div.welcome").removeClass("show");
+    $("div.introtext").removeClass("show");
+    $("div.blurry-background").removeClass("show");
+    $("div.btn1, div.btn2, div.btn3").addClass("show");
+  });
+  $("div.btn1").click(function () {
+    $("body").addClass("bg1");
+    $("body").removeClass("bg2 bg3");
+    console.log("btn1 testing");
+    $(this).addClass('active');
+  });
+  $("div.btn2").click(function () {
+    $("body").addClass("bg2");
+    $("body").removeClass("bg1 bg3");
+    console.log("btn2 testing");
+    $(this).addClass('active');
+  });
+
+  $("div.btn3").click(function () {
+    $("body").addClass("bg3");
+    $("body").removeClass("bg1 bg2");
+    console.log("btn3 testing");
+  });   
+
+
+
+
+
+
+});
+
+$(document).ready(function () {
+	$("div.continue").on("click", function() {
+		var audio = $("audio.music")[0];
+		audio.play();
+	});
+});
 
 
   </script>
